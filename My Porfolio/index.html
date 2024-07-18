@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/f7461a516f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/portfoliologo.webp" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Projects</a></li>
+                    <li><a href="#portfolio">Achievements</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <!-- <p> Web Developer</p> -->
+                <h1>Hi This is <span>Niteesh Chelimela</span>.</h1>
+            </div>
+        </div>
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="https://media.licdn.com/dms/image/C5622AQGXwLNibB8yWg/feedshare-shrink_800/0/1674489551040?e=2147483647&v=beta&t=YWLK0xZWqdLem1Wsrw6AmT115VINwNEYpHKvxd-n8Qc" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>
+                        Welcome to my portfolio! I'm Niteesh Chelimela, a B.Tech student deeply passionate about Web Development. With hands-on experience in HTML, CSS, and JavaScript, I excel at transforming concepts into impactful solutions. I'm thrilled about the journey ahead, eager to take on new challenges, and constantly embracing opportunities to learn and grow. Let's connect and collaborate on something amazing together!
+                    </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links " onclick="opentab('projects')" >Projects</p>
+                        <p class="tab-links " onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Development</span><br>Web app Development</li>
+                            <li><span>Java</span><br>For coding Web Applications</li>
+                            <li><span>Python</span><br>For Competitive coding</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="projects">
+                        <ul>
+                            <li><span>Sept,2023</span><br>Online Food Ordering Website</li>
+                            <li><span>April,2023</span><br>Dice Game Using Html, CSS ,javascript</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2021-2025</span><br>B.tech Computer Science and Engineering
+                                <br>Anurag University,Hyderabad || CGPA-9.57</li>
+                            <li><span>2019-2021</span><br>Intermediate<br>Sri Gayatri Educational Institutions ,ECIL || Percentage-96.6%</li>
+                            <li><span>2019</span><br>SSC <br> ST.Thomas High School
+                                 || CGPA-9.5</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+   <!-- services -->
+   <div id="services">
+     <div class="container">
+        <h1 class="sub-title">My Projects</h1>
+        <div class="services-list">
+            <div>
+                <a href="#">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <h2>Online Food Ordering System</h2>
+                <p>Developed a static website for online food ordering system streamlines the process of selecting and ordering food from various restaurants, offering users convenience and a wide range of dining options at their fingertips.
+                    </p>
+                <a href="#">Learn more</a>
+            </a>
+            </div>
+            
+            <div>
+                <a href="https://dicegame-niteesh-07c835.netlify.app/">
+                <i class="fa-solid fa-dice"></i>
+                <h2>Dice Game</h2>
+                <p>This project is a simple implementation of the classic dice game, players rolling dice to achieve higher scores than Computer.There are 3 outcomes either Player win or Computer win or Draw. This is implemented by using Random Module.
+                    </p>
+                <a href="#">Learn more</a>
+            </a>
+            </div>
+            <div>
+                <a href="#">
+                <i class="fa-solid fa-voice"></i>
+                <h2>Text to speech Convertor</h2>
+                <p>"Text to Speech Converter: Converts text input to audio using JavaScript. Utilizes HTML for structure, CSS for styling, and JavaScript for functionality. Enhances accessibility by providing audio output for text content."</p>
+                <a href="#">Learn more</a>
+            </a>
+            </div>
+            <div>
+                <a href="#">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <h2>Online Food Ordering System</h2>
+                <p>Developed a static website for online food ordering system streamlines the process of selecting and ordering food from various restaurants, offering users convenience and a wide range of dining options at their fingertips.
+                    </p>
+                <a href="#">Learn more</a>
+            </a>
+            </div>
+        </div>
+     </div>
+   </div>
+
+  <!-- portfolio -->
+   <div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">Achievements</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/c1.png">
+                <div class="layer">
+                    <br>
+                    <h4>Data Analytics and Visualization Job
+                        Simulation</h4> 
+                    <p>It covers topics of Project Understanding
+                        Data Cleaning & Modeling
+                        Data Visualization & Storytelling
+                        Present to the Client
+                        </p>
+                    <a href="images/c1.png"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+
+            </div>
+            <div class="work">
+                <img src="images/c2.png">
+                <div class="layer">
+                    <br>
+                    <h4>Hacker Rank - Java</h4> 
+                    <p>It will cover basic topics in Java language such as classes, data structures, inheritance, exception handling, etc.</p>
+                    <a href="https://www.hackerrank.com/certificates/472f9739a813"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/c3.png">
+                <div class="layer">
+                    <br>
+                    <h4>Hacker Rank - Python</h4> 
+                    <p>It covers topics like Scalar Types, Operators and Control Flow, Strings, Collections and Iteration, Modularity, Objects and Types and Classes</p>
+                    <a href="https://www.hackerrank.com/certificates/7dbec1adbcf8"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/c4.png">
+                <div class="layer">
+                    <br>
+                    <h4>Hacker Rank - SQL</h4> 
+                    <p>It includes simple queries, relationships, and aggregators.</p>
+                    <a href="https://www.hackerrank.com/certificates/b97d9c96386d"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+   </div>
+<!-- contact -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+               <h1 class="sub-title">Contact Me</h1>
+               <p> <i class="fa-solid fa-paper-plane"></i> chelimelaniteesh02684@gmail.com</p>
+               <p> <i class="fa-solid fa-phone"></i> 9951389009</p>
+               <div class="social-icons">
+                <a href="www.linkedin.com/in/niteesh-chelimela-3568b3249"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://www.facebook.com/chelimela.niteesh"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.instagram.com/niteeshgoud_official/" target="_blank"> <i class="fa-brands fa-instagram"></i></a>
+               </div>
+            </div>
+            <div class="contact-right">
+                <form action="">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Niteesh : All rights reserved for portfolio content.</p>
+    </div>
+</div>
+
+  <!-- javascript -->
+ <script>
+    var tablinks=document.getElementsByClassName("tab-links");
+    var tabcontents=document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+ </script>
+
+ <script>
+
+    var sidemenu=document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right="0";
+    }
+    function closemenu(){
+        sidemenu.style.right="-200px";
+    }
+
+
+ </script>
+
+</body>
+</html>
